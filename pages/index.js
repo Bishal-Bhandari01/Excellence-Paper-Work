@@ -7,7 +7,9 @@ import Footer from "./footer";
 export default function Home() {
   return (
     <div>
-      <NavBar />
+      <div>
+       <NavBar />
+      </div>
       <Main />
       <Aboutus />
       <Contactus />

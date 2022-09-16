@@ -10,10 +10,12 @@ export default function Home() {
       <div className="sticky-top">
        <NavBar />
       </div>
+<div>
       <Main />
       <Aboutus />
       <Contactus />
       <Footer />
+</div>
     </div>
   );
 }

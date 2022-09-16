@@ -3,7 +3,7 @@ import AboutImage from "../public/james-harrison-vpOeXr5wmR4-unsplash.jpg";
 
 export default function Aboutus() {
   return (
-    <div id='aboutus' className="container mt-5">
+    <div id="aboutus" className="container mt-5">
       <div className="row">
         <div className="col">
           <h2 className="text-center mb-4 d-flex justify-content-center">
@@ -13,29 +13,53 @@ export default function Aboutus() {
           </h2>
         </div>
       </div>
-      <div className="row overflow-hidden">
-        <div className="col-sm-6">
-          <div className="text-center">
-            <Image
-              src={AboutImage}
-              alt="about_pic"
-              style={{ borderRadius: "30px" }}
-              layout="responsive"
-              objectFit="cover"
-            />
+      <div className="d-flex justify-content-around">
+        <div className="card" style={{ width: "18rem" }}>
+          <Image
+            src={AboutImage}
+            alt="about_pic"
+            style={{ width: "100%" }}
+            layout="responsive"
+            objectFit="cover"
+          />
+          <div className="card-body">
+            <div className="card-title text-center">Bishal Bhandari</div>
+            <p className="text-muted text-justify">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
           </div>
         </div>
-        <div className="col-sm-6">
-        <div className="text-justify">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the standard dummy text ever since
-            the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+        <div className="card" style={{ width: "18rem" }}>
+          <Image
+            src={AboutImage}
+            alt="about_pic"
+            style={{ width: "100%" }}
+            layout="responsive"
+            objectFit="cover"
+          />
+          <div className="card-body">
+            <div className="card-title text-center">Bishal Bhandari</div>
+            <p className="text-muted text-justify">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+          </div>
+        </div>
+        <div className="card" style={{ width: "18rem" }}>
+          <Image
+            src={AboutImage}
+            alt="about_pic"
+            style={{ width: "100%" }}
+            layout="responsive"
+            objectFit="cover"
+          />
+          <div className="card-body">
+            <div className="card-title text-center">Bishal Bhandari</div>
+            <p className="text-muted text-justify">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
           </div>
         </div>
       </div>

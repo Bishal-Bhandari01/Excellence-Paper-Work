@@ -13,53 +13,56 @@ export default function Aboutus() {
           </h2>
         </div>
       </div>
-      <div className="d-flex justify-content-around">
-        <div className="card" style={{ width: "18rem" }}>
-          <Image
-            src={AboutImage}
-            alt="about_pic"
-            style={{ width: "100%" }}
-            layout="responsive"
-            objectFit="cover"
-          />
-          <div className="card-body">
-            <div className="card-title text-center">Bishal Bhandari</div>
-            <p className="text-muted text-justify">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p>
+      <div className="row">
+        <div className="col-sm-4 d-flex justify-content-center">
+          <div className="card mb-3" style={{ width: "18rem" }}>
+            <Image
+              src={AboutImage}
+              alt="about_pic"
+              layout="responsive"
+              objectFit="cover"
+            />
+            <div className="card-body">
+              <div className="card-title text-center">Bishal Bhandari</div>
+              <p className="text-muted text-justify">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
           </div>
         </div>
-        <div className="card" style={{ width: "18rem" }}>
-          <Image
-            src={AboutImage}
-            alt="about_pic"
-            style={{ width: "100%" }}
-            layout="responsive"
-            objectFit="cover"
-          />
-          <div className="card-body">
-            <div className="card-title text-center">Bishal Bhandari</div>
-            <p className="text-muted text-justify">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p>
+        <div className="col-sm-4 d-flex justify-content-center">
+          <div className="card mb-3" style={{ width: "18rem" }}>
+            <Image
+              src={AboutImage}
+              alt="about_pic"
+              layout="responsive"
+              objectFit="cover"
+            />
+            <div className="card-body">
+              <div className="card-title text-center">Bishal Bhandari</div>
+              <p className="text-muted text-justify">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
           </div>
         </div>
-        <div className="card" style={{ width: "18rem" }}>
-          <Image
-            src={AboutImage}
-            alt="about_pic"
-            style={{ width: "100%" }}
-            layout="responsive"
-            objectFit="cover"
-          />
-          <div className="card-body">
-            <div className="card-title text-center">Bishal Bhandari</div>
-            <p className="text-muted text-justify">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
-            </p>
+        <div className="col-sm-4 d-flex justify-content-center">
+          <div className="card mb-3" style={{ width: "18rem" }}>
+            <Image
+              src={AboutImage}
+              alt="about_pic"
+              layout="responsive"
+              objectFit="cover"
+            />
+            <div className="card-body">
+              <div className="card-title text-center">Bishal Bhandari</div>
+              <p className="text-muted text-justify">
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry.
+              </p>
+            </div>
           </div>
         </div>
       </div>

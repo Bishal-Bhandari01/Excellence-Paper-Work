@@ -18,32 +18,27 @@ export default function NavBar() {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span className="navbar-toggler-icon"></span>
+          <span
+            className="navbar-toggler-icon"
+          ></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav w-100 d-flex justify-content-end">
             <li className="nav-item">
               <Link href={"/"}>
-                <a
-                  className="nav-link text-light active"
-                  aria-current="page"
-                >
+                <a className="nav-link text-light active" aria-current="page">
                   Home
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href={"/#aboutus"}>
-                <a className="nav-link text-light">
-                  About us
-                </a>
+                <a className="nav-link text-light">About us</a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href={"/#contactus"}>
-                <a className="nav-link text-light">
-                  Contact us
-                </a>
+                <a className="nav-link text-light">Contact us</a>
               </Link>
             </li>
           </ul>

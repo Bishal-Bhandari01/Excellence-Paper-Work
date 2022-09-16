@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "heroku-postbuild": "npm run build"
+    "lint": "next lint"
   },
   "dependencies": {
     "bootstrap": "^5.2.1",
@@ -18,17 +17,5 @@
   "devDependencies": {
     "eslint": "8.23.1",
     "eslint-config-next": "12.3.0"
-  },
-  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
-  "main": "next.config.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Bishal-Bhandari01/Excellence-Paper-Work.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Bishal-Bhandari01/Excellence-Paper-Work/issues"
-  },
-  "homepage": "https://github.com/Bishal-Bhandari01/Excellence-Paper-Work#readme"
+  }
 }

@@ -1,4 +1,4 @@
-import Image from "next/Image";
+import Image from "next/image";
 import AboutImage from "../public/james-harrison-vpOeXr5wmR4-unsplash.jpg";
 
 export default function Aboutus() {

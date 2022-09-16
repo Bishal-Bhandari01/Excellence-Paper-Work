@@ -7,7 +7,7 @@ import Footer from "./footer";
 export default function Home() {
   return (
     <div>
-      <div>
+      <div className="sticky-top">
        <NavBar />
       </div>
       <Main />
